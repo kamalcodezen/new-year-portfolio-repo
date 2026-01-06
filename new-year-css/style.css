@@ -148,10 +148,12 @@ h3 {
 /* -----card style end---- */
 
 /* -----motivation section style start---- */
+
 .motivation-container {
     background: url("../images/watch.png");
     height: 300px;
     align-items: center;
+    border-radius: 8px;
 
 }
 
@@ -166,4 +168,65 @@ h3 {
 }
 
 /* -----motivation section style end---- */
-/* -----main area style end------ */
+
+/* --------------main area style end------------ */
+
+/* -----footer style start */
+footer {
+    background-color: black;
+    color: white;
+    padding: 129px 0;
+    margin-top: 130px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 331px;
+}
+
+.social {
+    max-width: 485px;
+}
+
+.social h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.social p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.social a {
+    margin-right: 18px;
+}
+
+.footer-container form h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.footer-container form input[type="email"] {
+    background-color: black;
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 325px;
+    padding: 21px 0 21px 21px;
+    margin-bottom: 16px;
+}
+
+.footer-container form input::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.footer-container form .btn {
+    background-color: #005FAC;
+    color: white;
+}
+
+/* -----footer style start------- */
