@@ -5,6 +5,7 @@
 }
 
 /* ----shared style----- */
+
 .font-open-sans {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -37,6 +38,8 @@
     font: bold;
     margin-bottom: 24px;
 }
+
+/* ------shared style end----- */
 
 /* ------header-banner style start------ */
 header {
@@ -71,7 +74,9 @@ header .banner-container {
 /* ----header banner style end----- */
 
 /* ----main area style start ----- */
+
 /* ----about style start----- */
+
 .about-container {
     display: flex;
     justify-content: space-between;
@@ -107,7 +112,9 @@ header .banner-container {
 }
 
 /* -----about style  end ---- */
+
 /* -----card style start---- */
+
 #card-section {
     padding-top: 129px;
 }
@@ -145,7 +152,7 @@ h3 {
     color: #737272;
 }
 
-/* -----card style end---- */
+/* -----card style end------ */
 
 /* -----motivation section style start---- */
 
@@ -172,6 +179,7 @@ h3 {
 /* --------------main area style end------------ */
 
 /* -----footer style start------ */
+
 footer {
     background-color: black;
     color: white;
