@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----shared style----- */
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    background-color: white;
+    padding: 20px 36px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* ------header-banner style start------ */
+header {
+    background: url("../images/banner/banner3.png");
+    vertical-align: middle;
+    max-height: 808px;
+}
+
+header .banner-container {
+    padding: 216px 230px 0 845px;
+    text-align: end;
+}
+
+.banner-content {
+    padding-bottom: 150px;
+}
+
+.banner-content h2 {
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.banner-content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+/* ----header banner style end----- */
