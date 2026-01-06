@@ -9,7 +9,8 @@
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
 }
-.container{
+
+.container {
     width: 71%;
     max-width: 1140px;
     margin: 0px auto;
@@ -26,6 +27,15 @@
     cursor: pointer;
 }
 
+.about-container {
+    margin-top: 113px;
+}
+
+.heading-section {
+    font-size: 40px;
+    font: bold;
+    margin-bottom: 24px;
+}
 
 /* ------header-banner style start------ */
 header {
@@ -58,3 +68,40 @@ header .banner-container {
 }
 
 /* ----header banner style end----- */
+
+/* ----main area style start ----- */
+/* ----about style start----- */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 322px;
+    gap: 87px;
+    align-items: center;
+}
+
+.about-container .about-img {
+    max-width: 568px;
+}
+
+.about-content .about-bio {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.about-content .item-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.about-content .item-text .tick-icon {
+    margin-right: 6px;
+    color: #16D887;
+}
+
+/* -----about style  end ---- */
+
+/* -----main area style end------ */
