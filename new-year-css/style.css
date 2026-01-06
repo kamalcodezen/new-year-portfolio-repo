@@ -103,5 +103,43 @@ header .banner-container {
 }
 
 /* -----about style  end ---- */
+/* -----card style start---- */
+#card-section {
+    padding-top: 129px;
+}
 
+#card-section .heading-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    text-align: center;
+    max-width: 214px;
+}
+
+.card img,
+h3 {
+    margin-bottom: 16px;
+
+}
+
+.card h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+/* -----card style end---- */
 /* -----main area style end------ */
