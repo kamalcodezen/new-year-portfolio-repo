@@ -27,7 +27,8 @@
     cursor: pointer;
 }
 
-.about-container {
+.about-container,
+.motivation-container {
     margin-top: 113px;
 }
 
@@ -74,13 +75,16 @@ header .banner-container {
 .about-container {
     display: flex;
     justify-content: space-between;
-    margin-right: 322px;
     gap: 87px;
     align-items: center;
 }
 
 .about-container .about-img {
     max-width: 568px;
+}
+
+.about-content {
+    padding-right: 70px;
 }
 
 .about-content .about-bio {
@@ -142,4 +146,24 @@ h3 {
 }
 
 /* -----card style end---- */
+
+/* -----motivation section style start---- */
+.motivation-container {
+    background: url("../images/watch.png");
+    height: 300px;
+    align-items: center;
+
+}
+
+.motivation-container .motivation-content {
+    max-width: 550px;
+    padding: 56px 0px 0px 56px;
+}
+
+.motivation-container .heading-section {
+    color: white;
+
+}
+
+/* -----motivation section style end---- */
 /* -----main area style end------ */
